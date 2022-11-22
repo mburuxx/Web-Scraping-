@@ -1,0 +1,10 @@
+The aim of this program is to calculate a running sum
+Initialize summation as 0
+Ask user to enter number of elements
+FOR number in the range 0 and length of elements
+		Prompt user to enter elements
+		IF element is less than 0
+			break from loop
+		Summation is the element added to the summation
+Print summation
+

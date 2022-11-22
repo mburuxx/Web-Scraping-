@@ -1,0 +1,8 @@
+This is a program that reads in three numbers and writes them all in a sorted order
+Define a variable numbers containing a list of three numbers
+Compare the first element and second element
+IF the first element is greater than the second, swap elements
+Compare the second and third element
+IF the second element is greater than third element, swap elements
+Repeat step 3 and 4
+Print elements 

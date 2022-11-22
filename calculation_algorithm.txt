@@ -1,0 +1,14 @@
+The aim of this program is to calculate the sum of squares of a given input of numbers
+Define a variable numbers that holds an empty list
+Define a variable squares that holds an empty list
+Initialize a variable sumSquares and assign the value zero
+Ask the user for number of elements for the given input
+FOR the elements in ranges zero and number of elements
+	Prompt user to enter the elements
+	Add each elements to numbers
+FOR a number in numbers
+	Multiply number by the power of two and store the result in a variable square
+	Add each square to squares
+FOR a value in squares
+		sumSquares is the addition of sumSquares and value
+Print sumSquares
