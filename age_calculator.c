@@ -15,7 +15,7 @@ int main ()
 	scanf(" %d", &birthYear);
 
 	// if year of birth is greater than current year, enter year again
-	if (birthYear > CURRENTYEAR) {
+	while (birthYear > CURRENTYEAR) {
 		printf("It is not possible to be born during this year.\n");
 		printf("Please enter the year of birth once again: ");
 		scanf(" %d" ,&birthYear);
