@@ -33,7 +33,7 @@ int main ()
 /* The section below demonstrates the use of a conditional operator to replace the if statement */
 	printf("Enter number of pears: ");
 	scanf(" %d", &numPears);
-	printf("You have %d pear%s\n", numPears, (numPears > 1)? ("s."):("."));
+	printf("You have %d pear%s\n", numPears, (numPears > 1)? ("s."):(".")); // if number of pears is greater than 1, include s. or else include .
 	//printf("The size in memory occupied is %d. bytes.", &sizeof(name));
 	return 0;
 }
