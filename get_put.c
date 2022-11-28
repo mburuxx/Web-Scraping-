@@ -16,7 +16,7 @@ int main()
     {
       message[i] = getchar();
       //terminate the loop
-      if (i == '\n')
+      if (message[i] == '\n')
 	{
 	  i--;
 	  break;
@@ -30,5 +30,5 @@ int main()
     }
   putchar('\n');
 
-  return 0; //terminate program
+  return(0); //terminate program
 }
