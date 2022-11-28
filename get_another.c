@@ -1,0 +1,33 @@
+// aim of program is to ask user for a string then prints the string
+// include headers
+#include <stdio.h>
+#include <string.h>
+
+int main ()
+{
+
+  // initialize variables
+  int i;
+  char msg[50];
+
+  printf("Type a congratulatory message to the winner then press Enter...\n");
+
+  // loop to get characters from user
+  for(i= 0; i< 50; i++)
+    {
+      msg[i] = getchar();
+      if (msg[i] == '\n')
+	{
+	  i--;
+	  break;
+	}
+    }
+  putchar('\n');
+  // loop to print
+  for(i= 0; i< strlen(msg); i++)
+    {
+      putchar(msg[i]);
+    }
+  putchar('\n');
+  return(0);
+}
