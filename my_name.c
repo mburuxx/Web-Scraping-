@@ -4,15 +4,9 @@
 #include <string.h>
 int main ()
 {
-  char name[17];
+  char name[57]= "buda yangu ni mnoma";
   int i;
 // print variable
-  name['b'];
-  name['r'];
-  name['i'];
-  name['a'];
-  name['n'];
-  name['\0'];
 
   for (i = 0; i < strlen(name); i++)
     {
