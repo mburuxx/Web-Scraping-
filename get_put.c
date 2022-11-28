@@ -9,10 +9,10 @@ int main()
   int i;
   
   // print a statement to the user for instructions
-  printf("Type not more than 25 characters then press Enter... \n");
+  printf("Type not more than 30 characters then press Enter... \n");
   
   // iterate through the variable so as to get the characters
-  for (i= 0; i < strlen(message); i++)
+  for (i= 0; i < 30; i++)
     {
       message[i] = getchar();
       //terminate the loop
@@ -24,7 +24,7 @@ int main()
     }
   putchar('\n');
   // iterate through the variable to output the characters
-  for ( ; i < strlen(message); i--)
+  for ( ; i >= 0; i--)
     {
       putchar(message[i]);
     }
