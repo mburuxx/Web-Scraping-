@@ -11,6 +11,7 @@ int main()
 	char childname[10] = "Thomas";
 	printf("%s have %d kids only.", FAMILY, KIDS);
 
+/* Initializing age */
 	age = 12;
 	strcpy (childname, "Brian");
 	printf("\nTheir youngest son %s is aged %d years.", childname, age);
