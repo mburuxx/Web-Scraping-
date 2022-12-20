@@ -24,5 +24,8 @@ int main(void)
 	// value of first element is address of first element
 	printf("'t': %p\n", t);
 	printf("'t[0]': %p\n", &t[0]);
+
+	//size of the array
+	printf("Size of the array: %lu\n", sizeof(t));
 	return (0);
 }
