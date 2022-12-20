@@ -21,5 +21,8 @@ int main(void)
 	printf("The address of 't[1] is: %p\n", &(t[1]));
 	printf("The address of 't[4] is: %p\n", &(t[4]));
 
+	// value of first element is address of first element
+	printf("'t': %p\n", t);
+	printf("'t[0]': %p\n", &t[0]);
 	return (0);
 }
